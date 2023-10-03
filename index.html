@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Faisal Profile</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery.min.js"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/w3images/profile_girl.jpg');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+<a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+<a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+<a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+<a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+<!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+<h1 class="w3-jumbo"><b>Faisal Al Efreet</b></h1>
+   <div class="word"></div> 
+<img src="img/logo.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+<img src="img/logo.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+<button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+<i class="fa fa-download"></i> Download Resume
+</button>
+<a href="MyCV.html" class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+<i class="fa fa-eye"></i> view Resume
+</a>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+<h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+<!-- Grid for photos -->
+<div class="w3-row-padding" style="margin:0 -16px">
+<div class="w3-half">
+<img src="img/one.png" style="width:100%">
+<img src="img/five.png" style="width:100%">
+<img src="img/three.jpg" style="width:100%">
+</div>
+
+<div class="w3-half">
+<img src="img/four.png" style="width:100%">
+<img src="img/two.png" style="width:100%">
+<img src="img/six.png" style="width:100%">
+<img src="img/mychat.png" style="width:100%">
+</div>
+<!-- End photo grid -->
+</div>
+<!-- End Portfolio Section -->
+</div>
+
+  <!-- About Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+<h2>About</h2>
+<hr class="w3-opacity">Hello! I'm Faisal AL Efreet, a passionate web designer and desktop application developer. I specialize in creating captivating user experiences and innovative websites and applications. With a strong background in programming languages like HTML, CSS,JavaScript,PHP, and MySQL I transform ideas into realistic digital solutions. I believe in the power of collaboration and constantly stay updated with the latest design trends to deliver exceptional results. Let's work together to create a unique and high-performing digital experience that exceeds your expectations.
+<p>
+</p>
+<h3 class="w3-padding-16">My Skills</h3>
+<p class="w3-wide">Time management</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+</div>
+<p class="w3-wide">Web Design</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">90%</div>
+</div>
+<p class="w3-wide">Teamwork, Communication</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+</div>
+<p class="w3-wide">Problem - solving</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">85%</div>
+</div>
+    
+<p class="w3-wide">Programming languages – HTML,CSS,JAVASC RIPT,PHP ,C#,C++,MYSQL</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">85%</div>
+</div>
+    
+<p class="w3-wide">Web designer and web developer</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+</div>
+    
+<p class="w3-wide">Database expert</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+</div>
+    
+<p class="w3-wide">Microsoft office</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+  
+<p class="w3-wide">Data entire</p>
+<div class="w3-light-grey">
+<div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+</div>  
+    
+    
+<div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+<div class="w3-quarter w3-section">
+<span class="w3-xlarge">10+</span><br>
+Partners
+</div>
+<div class="w3-quarter w3-section">
+<span class="w3-xlarge">8+</span><br>
+Projects Done
+</div>
+<div class="w3-quarter w3-section">
+<span class="w3-xlarge">50+</span><br>
+Happy Clients
+</div>
+<div class="w3-quarter w3-section">
+<span class="w3-xlarge">20+</span><br>
+Meetings
+</div>
+</div>
+
+<button class="w3-button w3-light-grey w3-padding-large w3-section">
+<i class="fa fa-download"></i> Download Resume
+</button>
+
+<!-- Testimonials -->
+<h3 class="w3-padding-24">My Reputation</h3>
+<img src="img/one_frind.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+<p><span class="w3-large w3-text-black w3-margin-right">Ammar salem.</span> Web Designer.</p>
+<p> Faisal Al efreet is just awesome. I am so happy to have met her!</p><br>
+   
+<img src="img/two_frind.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+<p><span class="w3-large w3-text-black w3-margin-right">Abdalwhab.</span>  data entry.</p>
+<p>Faisal Al efreet saved us from a web disaster.</p><br>
+    
+<img src="img/three_frind.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+<p><span class="w3-large w3-text-black w3-margin-right">Salah Amran.</span>  lawyer .</p>
+<p>No one is better than Faisal Al efreet.</p><br>
+    
+  <!-- End About Section -->
+</div>
+
+  <!-- Contact Section -->
+<div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+<h2>Contact Me</h2>
+<hr class="w3-opacity">
+
+<div class="w3-section">
+<p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Yemen,Hajjah</p>
+<p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +967 711578940</p>
+<p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: fhaefreet@gmail.com</p>
+</div>
+</div>
+  
+  <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+<a href="https://www.facebook.com/hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhj"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+ <a href="https://instagram.com/faisalhosin?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram w3-hover-opacity"></i></a>
+ 
+  <a href="https://api.whatsapp.com/send?phone=711578940&text=hello"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+
+ <a href="https://twitter.com/AfreatFaisal?t=uz9DGPwDKKup_8aqrpnEOQ&s=09"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/eng-faisal-hosin-al-efreet-a86ba01a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  
+<p class="w3-medium">developer by <a href="https://www.linkedin.com/in/eng-faisal-hosin-al-efreet-a86ba01a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Faisal AL Efreet</a></p>
+  <!-- End footer -->
+</footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<script>
+
+var words = ['I am web developer', 'I am Desktop application developer', 'I like graphic designer', 'I like a photographer.'],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 70;
+var wordflick = function () {
+  setInterval(function () {
+    if (forwards) {
+      if (offset >= words[i].length) {
+        ++skip_count;
+        if (skip_count == skip_delay) {
+          forwards = false;
+          skip_count = 0;
+        }
+      }
+    }
+    else {
+      if (offset == 0) {
+        forwards = true;
+        i++;
+        offset = 0;
+        if (i >= len) {
+          i = 0;
+        }
+      }
+    }
+    part = words[i].substr(0, offset);
+    if (skip_count == 0) {
+      if (forwards) {
+        offset++;
+      }
+      else {
+        offset--;
+      }
+    }
+    $('.word').text(part);
+  },speed);
+};
+
+$(document).ready(function () {
+  wordflick();
+});
+</script>
+</body>
+</html>
